@@ -82,3 +82,9 @@ button:active{
 .chanceNumberT span{
     margin-left: 20px;
 }
+h5{
+    font-size: 50px;
+    color: rgb(88, 124, 255);
+    text-align: right;
+    font-weight: 800;  
+}
