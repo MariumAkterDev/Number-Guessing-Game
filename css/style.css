@@ -1,0 +1,84 @@
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    flex-direction: column;
+}
+.main{
+    width: 400px;
+    padding: 30px;
+    border: 1px solid white;
+    border-radius: 7px;
+}
+h1{
+    font-size: 30px;
+    font-weight: 600;
+    color: blanchedalmond;
+}
+h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: red; 
+}
+input{
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+input::placeholder{
+    font-size: 20px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    margin-left: 90px;
+    background: orangered;
+    border-radius: 6px;
+    color: antiquewhite;
+    font-size: 20px;
+    transition: all linear 0.1s;
+}
+button:active{
+    transform: scale(0.9);
+}
+.playerTwo{
+    display: none;
+}
+.playerThree{
+    display: none;
+}
+.result{
+    font-size: 55px;
+    font-weight: 700;
+    color: chartreuse;
+    text-align: center;
+}
+.winner{
+    display: none;
+}
+.chanceNumber{
+    font-size: 18px;
+    color: rgb(178, 217, 138);
+    text-align: right;
+    font-weight: 600;
+}
+.chanceNumber span{
+    margin-left: 20px;
+}
+.chanceNumberT{
+    font-size: 18px;
+    color: rgb(178, 217, 138);
+    text-align: right;
+    font-weight: 600;
+}
+.chanceNumberT span{
+    margin-left: 20px;
+}
